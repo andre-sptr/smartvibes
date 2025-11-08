@@ -64,13 +64,13 @@ const Auth = () => {
         <CardHeader className="text-center">
           <div className="text-5xl mb-2">💬</div>
           <h1 className="text-2xl font-bold bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent">
-            PejuangBot
+            SmartVibes
           </h1>
           <CardTitle className="text-3xl font-bold pt-4">
             {isSignUp ? "Buat Akun Baru" : "Selamat Datang"}
           </CardTitle>
           <CardDescription>
-            {isSignUp ? "Isi data di bawah untuk mendaftar." : "Login ke akun PejuangBot kamu."}
+            {isSignUp ? "Isi data di bawah untuk mendaftar." : "Login ke akun SmartVibes kamu."}
           </CardDescription>
         </CardHeader>
         <CardContent>

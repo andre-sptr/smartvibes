@@ -127,7 +127,7 @@ const Index = () => {
       <div className="flex-1 flex flex-col" style={{ background: "var(--gradient-bg)" }}>
         <div className="p-4 border-b border-border bg-card/50 backdrop-blur-sm flex justify-between items-center">
           <h2 className="font-semibold text-lg">
-            {conversations.find((c) => c.id === currentConversationId)?.title || "PejuangBot"}
+            {conversations.find((c) => c.id === currentConversationId)?.title || "SmartVibes"}
           </h2>
           <Button variant="ghost" size="sm" onClick={handleLogout}>
             Logout
@@ -144,7 +144,7 @@ const Index = () => {
                   Haiii 👋
                 </h2>
                 <p className="text-muted-foreground">
-                  Aku PejuangBot — temen ngobrol dan bantu belajarmu. Mau bahas apa hari ini?
+                  Aku SmartVibes — temen ngobrol dan bantu belajarmu. Mau bahas apa hari ini?
                 </p>
               </div>
             </div>

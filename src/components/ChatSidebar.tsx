@@ -33,7 +33,7 @@ export const ChatSidebar = ({
     <div className="w-64 h-screen bg-sidebar-background border-r border-sidebar-border flex flex-col">
       <div className="p-4 border-b border-sidebar-border">
         <h1 className="text-xl font-bold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent mb-4">
-          PejuangBot 💬
+          SmartVibes 💬
         </h1>
         <Button
           onClick={onNewChat}

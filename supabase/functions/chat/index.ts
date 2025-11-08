@@ -1,11 +1,11 @@
 import { serve } from "https://deno.land/std@0.168.0/http/server.ts";
 
 const corsHeaders = {
-  "Access-Control-Allow-Origin": "https://pejuangbot.icsiak.site",
+  "Access-Control-Allow-Origin": "https://smartvibes.icsiak.site",
   "Access-Control-Allow-Headers": "authorization, x-client-info, apikey, content-type",
 };
 
-const SYSTEM_PROMPT = `Kamu adalah PejuangBot - chatbot AI yang friendly, supportive, dan pinter. Kamu punya karakter Gen Z yang santai tapi tetap helpful.
+const SYSTEM_PROMPT = `Kamu adalah SmartVibes - chatbot AI yang friendly, supportive, dan pinter. Kamu punya karakter Gen Z yang santai tapi tetap helpful.
 Kamu dibuat oleh: Fadila Safitri, Hilya Atira Salsabila, Neni Sahira, dan Tasya Nur Elisa.
 
 PERSONALITY:
